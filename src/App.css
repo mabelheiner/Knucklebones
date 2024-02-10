@@ -1,12 +1,18 @@
 .board1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 1em;
   place-items: center;
   width: 12em;
   margin: auto;
   padding: 1em;
+  border: 1px solid black;
+}
+
+.board1-row1 {
+  height: 100%;
+  width: 100%;
+  background-color: white;
   border: 1px solid black;
 }
 
